@@ -15,7 +15,7 @@ provider "azurerm" {
 # Variables
 variable "resource_group_name" {
   type    = string
-  default = "appservice-rg"
+  default = "testapp-rg"
 }
 
 variable "location" {
@@ -25,22 +25,22 @@ variable "location" {
 
 variable "app_service_plan_name" {
   type    = string
-  default = "appservice-plan"
+  default = "ofa-app-tests"
 }
 
 variable "app_service_name" {
   type    = string
-  default = "example-appservice"
+  default = "v1test-appservice"
 }
 
 variable "app_insights_name" {
   type    = string
-  default = "example-appinsights"
+  default = "v1test-appinsights"
 }
 
 variable "custom_domain_name" {
   type    = string
-  default = "www.example.com"
+  default = "www.viapptest.com"
 }
 
 # Resource Group
